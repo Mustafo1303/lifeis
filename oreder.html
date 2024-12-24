@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buyurtma Berish</title>
+  <link rel="stylesheet" href="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="order-container">
+    <h1>Buyurtma Berish</h1>
+    <p>Quyidagi shaklni to'ldiring va buyurtmangizni tasdiqlang</p>
+    <form>
+      <div class="form-group">
+        <label for="name">Ismingiz:</label>
+        <input type="text" id="name" name="name" placeholder="Ismingizni kiriting" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Telefon raqamingiz:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+998 90 123-45-67" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Manzilingiz:</label>
+        <input type="text" id="address" name="address" placeholder="Manzilingizni kiriting" required>
+      </div>
+      <div class="form-group">
+        <label for="food">Taom tanlang:</label>
+        <select id="food" name="food" required>
+          <option value="" disabled selected>Taomni tanlang</option>
+          <option value="salad">Salat</option>
+          <option value="pizza">Pizza</option>
+          <option value="soup">Sho'rva</option>
+          <option value="dessert">Desert</option>
+        </select>
+      </div>
+      <button type="submit" class="submit-btn">Buyurtma berish</button>
+    </form>
+  </div>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(255, 255, 255, 0.95); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.order-container {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px 40px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.order-container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.order-container p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border: 2px solid #2575fc;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #cb6e11, #fcb825);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition:0.3s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+  </style>
+</body>
+</html>

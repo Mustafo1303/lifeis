@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 120px;
+}
+.nomi{
+    position: relative;
+    left: 900px;
+    top: -450px;
+font-family: Poppins;
+font-size: 36px;
+font-weight: 600;
+line-height: 43.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.narxi{
+    position: relative;
+    left: 900px;
+    top: -380px;
+font-family: Poppins;
+font-size: 27px;
+font-weight: 500;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.brand{
+    position: relative;
+    left: 860px;
+    top: -300px;
+}
+.cta{
+    position: relative;
+    left: 260px;
+    top: -130px;
+}
+.cate{
+    position: relative;
+    left: 860px;
+}

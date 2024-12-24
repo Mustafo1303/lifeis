@@ -1,0 +1,162 @@
+body{
+    background-color: #E7E7E3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.pic{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 20px;
+}
+.pic img{
+    border-radius: 15px;
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.picis{
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 30px;
+}
+h2{
+font-family: Rubik;
+font-size: 32px;
+font-weight: 800;
+line-height: 37.92px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #232321;
+
+}
+.col{
+    font-family: Rubik;
+font-size: 26px;
+font-weight: 600;
+margin-top: 12px;
+margin-left: 120px;
+line-height: 18.96px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #232321;
+
+}
+.col img{
+position: relative;
+top: 80px;
+left: -90px;
+}
+.number{
+    position: relative;
+    left: 700px;
+    font-family: Rubik;
+font-size: 26px;
+font-weight: 900;
+line-height: 18.96px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #232321;
+
+}
+.size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.size li{ 
+display: flex;
+justify-content: center;
+align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    left: -700px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 900;
+line-height: 16.59px;
+letter-spacing: 0.25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+transition: 1s;
+
+    
+}
+.size li:hover{
+    background-color: black;
+    color: white;
+}
+.add{
+    width: 374px;
+height: 48px;
+gap: 4px;
+border-radius: 8px;
+background-color: black;
+color: white;
+font-family: Rubik;
+font-size: 19px;
+font-weight: 500;
+line-height: 16.59px;
+letter-spacing: 0.25px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 190px;
+margin-left: 350px;
+}
+.xarid{
+    width: 374px;
+height: 48px;
+gap: 4px;
+border-radius: 8px;
+background-color: #4A69E2;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: -65px;
+margin-left: 850px;
+}
+.narx{
+    position: relative;
+    top: -255px;
+    left: 1200px;
+    color: #4A69E2;
+font-family: Rubik;
+font-size: 29px;
+font-weight: 900;
+line-height: 18.44px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.frame{
+    margin-top: 20px;
+    margin-left: 100px;
+}

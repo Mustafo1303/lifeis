@@ -1,0 +1,94 @@
+.qay{
+    position: relative;
+    left: -500px;
+    top: -100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color:  #2575fc;
+    border-radius: 5px;
+}
+.qay a{
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc), url('https://source.unsplash.com/random/1920x1080');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .registration-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 40px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .registration-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #fff;
+    color: #000;
+  }
+
+  .form-group input:focus {
+    outline: none;
+    border: 2px solid #2575fc;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .submit-btn:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+  }
+
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footer a {
+    color: #fff;
+    text-decoration: underline;
+  }

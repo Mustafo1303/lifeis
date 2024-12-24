@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.href{
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: white;
+
+}
+.href a{
+    color: white;
+}
+nav img{
+    margin-left: 60px;
+}
+.mavzu{
+font-family: "Poppins";
+font-size: 32px;
+font-weight: 600;
+line-height: 38.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 50px;
+}
+
+.pic1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pic2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box{
+    width: 264px;
+height: 327px;
+border: 1px solid rgb(227, 227, 227);
+border-radius: 5px;
+
+}
+.nomi{
+  
+font-family: "Poppins";
+font-size: 17px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #4D4D4D;
+margin-left: 15px;
+
+}
+.narxi{
+ color: #1A1A1A;
+font-family: "Poppins";
+font-size: 19px;
+font-weight: 800;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-left: 25px;
+}
+.cart{
+    margin-left: 176px;
+    margin-top: -10px;
+}
+.block2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.block3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.banner{
+    margin-left: 110px;
+}
+.dis{
+    margin-left: 110px;
+}
+.image{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 85px;
+gap: 30px;
+}
+.image li{
+    border-radius: 10px;
+    box-shadow: 0px 20px 50px 0px #00000014;
+
+}
+.image p{
+font-family: "Poppins";
+font-size: 22px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 21px;
+}
+.logo{
+    margin-left: 150px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #1A1A1A;
+}
+.comp{
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.frame{
+    margin-left: 900px;
+    margin-top: 15px;
+}
+.card{
+    margin-left: 70px;
+    margin-top: 30px;
+}

@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    background: url(image\ \(14\).png) no-repeat center/cover;
+    height: 758px;
+}
+.mavzu{
+font-family: Stem;
+font-size: 38px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 10px;
+margin-left: 49px;
+}
+.number{
+    margin-left: 1300px;
+    margin-top: -20px;
+font-family: Stem;
+font-size: 13px;
+font-weight: 700;
+line-height: 18px;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #000000B2;
+}
+.number span{
+    font-family: Stem;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+   margin-left: -90px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;   
+}
+.text1{
+font-family: Stem;
+font-size: 64px;
+font-weight: 700;
+line-height: 68px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 480px;
+height: 136px;
+color: white;
+position: relative;
+top: 290px;
+left: 320px;
+}
+.text2{
+ color: white;
+font-family: Stem;
+font-size: 24px;
+font-weight: 500;
+line-height: 31.2px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 445px;
+height: 93px;
+position: relative;
+top: 290px;
+left: 390px;
+
+}
+.input1{
+    width: 445px;
+height: 460px;
+border-radius: 16px;
+background-color: white;
+position: relative;
+top: -90px;
+left: 890px;
+}
+.text3{
+  
+font-family: Stem;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+position: relative;
+top: 30px;
+margin-left: 70px;
+}
+.input1 input{
+    position: relative;
+    top: 80px;
+    left: 29px;
+    width: 365px;
+height: 56px;
+border-radius: 6px;
+gap: 12px;
+display: flex;
+text-align: center;
+color: #4e4e4e33;
+font-weight: 600;
+}
+button{
+    width: 305px;
+height: 56px;
+border-radius: 6px;
+opacity: 0px;
+background-color: #FF002E;
+font-weight: 700px;
+color: white;
+text-align: center;
+position: relative;
+top: 80px;
+left: 55px;
+}
+.text4{
+  color: grey;
+  position: relative;
+  top: 90px;
+font-family: Stem;
+font-size: 15px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+h2{
+    margin-top: 20px;
+    margin-left: 50px;
+font-family: Stem;
+font-size: 64px;
+font-weight: 800;
+line-height: 68px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.text5{
+   color: grey;
+font-family: Stem;
+font-size: 24px;
+font-weight: 500;
+line-height: 31.2px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.oquv{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.des{
+    margin-left: 40px;
+}
+.ser{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.engi{
+    margin-left: 00px;
+    margin-top: 50px;
+    width: 100%;
+  
+
+
+}
+.input2{
+    background: url(https://ygo-assets-websites-editorial-emea.yougov.net/images/Englishness_illustrative.original.png) no-repeat center/cover;
+
+}
+.text6{
+    color: black;
+    
+    font-family: Stem;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    top: 30px;
+    margin-left: 680px;
+}
+.input2 .input1{
+    margin-top: 250px;
+    margin-left: -270px;
+}
+section{
+    background: url(image.svg) no-repeat center/cover;
+    height: 728px;
+    margin-top: 50px;
+    
+}
+.text7{
+  position: relative;
+  top: 150px;
+font-family: "Gilroy";
+font-size: 18px;
+font-weight: 900;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgb(255, 255, 255);
+}
+.button{
+    width: 305px;
+    height: 56px;
+    border-radius: 6px;
+    opacity: 0px;
+    background-color: #FF002E;
+    font-weight: 700px;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 280px;
+    left: 605px;
+
+}
+footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 660px;
+}
+.text8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    color: grey;
+}
+a{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.href a{
+width: 300px;
+height: 40px;
+background-color: blue;
+color: white;
+margin-left: 40px;
+margin-top: 10px;
+border-radius: 7px;
+}
